@@ -26,16 +26,16 @@
 
 // ** MySQL 設定 - この情報はホスティング先から入手してください。 ** //
 /** WordPress のためのデータベース名 */
-define( 'DB_NAME', 'database_name_here' );
+define( 'DB_NAME', 'wordpress' );
 
 /** MySQL データベースのユーザー名 */
-define( 'DB_USER', 'username_here' );
+define( 'DB_USER', 'root' );
 
 /** MySQL データベースのパスワード */
-define( 'DB_PASSWORD', 'password_here' );
+define( 'DB_PASSWORD', 'password' );
 
 /** MySQL のホスト名 */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', 'mysql' );
 
 /** データベースのテーブルを作成する際のデータベースの文字セット */
 define( 'DB_CHARSET', 'utf8' );

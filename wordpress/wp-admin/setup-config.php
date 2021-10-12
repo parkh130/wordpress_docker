@@ -220,7 +220,7 @@ switch ( $step ) {
 		</tr>
 		<tr>
 			<th scope="row"><label for="uname"><?php _e( 'Username' ); ?></label></th>
-			<td><input name="uname" id="uname" type="text" aria-describedby="uname-desc" size="25" value="<?php echo htmlspecialchars( _x( 'username', 'example username' ), ENT_QUOTES ); ?>" /></td>
+			<td><input name="uname" id="uname" type="text" aria-describedby="uname-desc" size="25" value="<?php echo htmlspecialchars( _x( 'root', 'example username' ), ENT_QUOTES ); ?>" /></td>
 			<td id="uname-desc"><?php _e( 'Your database username.' ); ?></td>
 		</tr>
 		<tr>
@@ -230,7 +230,7 @@ switch ( $step ) {
 		</tr>
 		<tr>
 			<th scope="row"><label for="dbhost"><?php _e( 'Database Host' ); ?></label></th>
-			<td><input name="dbhost" id="dbhost" type="text" aria-describedby="dbhost-desc" size="25" value="localhost" /></td>
+			<td><input name="dbhost" id="dbhost" type="text" aria-describedby="dbhost-desc" size="25" value="mysql" /></td>
 			<td id="dbhost-desc">
 			<?php
 				/* translators: %s: localhost */

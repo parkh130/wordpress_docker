@@ -1,4 +1,5 @@
-FROM php:7.2-fpm
+FROM php:7.3-fpm
 
 # init setup
-# RUN apt update -y; apt upgrade -y
+RUN apt update -y \ 
+    && docker-php-ext-install mysqli
