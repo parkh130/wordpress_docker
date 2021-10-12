@@ -11,6 +11,8 @@ sudo gpasswd -a $USER docker
 exit
 # 再接続します。
 sudo systemctl restart docker
-
+git clone https://github.com/parkh130/wordpress_docker.git
+cd wordpress_docker
+docker-compose up --build -d
 
 ````
